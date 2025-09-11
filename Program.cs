@@ -86,6 +86,30 @@ class Program
 
             };
         }
+        else if (chapterName == "Chapter5")
+        {
+            tasks = new Dictionary<int, Action>
+            {
+                {1, Chapter5.Task1.Run},
+                {2, Chapter5.Task2.Run},
+                {3, Chapter5.Task3.Run},
+                {4, Chapter5.Task4.Run},
+                {5, Chapter5.Task5.Run},
+                {6, Chapter5.Task6.Run},
+                {7, Chapter5.Task7.Run},
+                {8, Chapter5.Task8.Run},
+                {9, Chapter5.Task9.Run},
+                {10, Chapter5.Task10.Run},
+                {11, Chapter5.Task11.Run},
+                {12, Chapter5.Task12.Run},
+                {13, Chapter5.Task13.Run},
+                {14, Chapter5.Task14.Run},
+                {15, Chapter5.Task15.Run},
+                {16, Chapter5.Task16.Run},
+                {17, Chapter5.Task17.Run},
+
+            };
+        }
 
 
         while (true)
