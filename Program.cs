@@ -110,6 +110,14 @@ class Program
 
             };
         }
+        else if (chapterName == "Chapter6")
+        {
+            tasks = new Dictionary<int, Action>
+            {
+                {1, Chapter5.Task1.Run},
+
+            };
+        }
 
 
         while (true)
