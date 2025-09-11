@@ -11,7 +11,8 @@ class Program
             {2, "Chapter2"},
             {3, "Chapter3"},
             {4, "Chapter4"},
-            {5, "Chapter5"}
+            {5, "Chapter5"},
+            {6, "Chapter6"},
         };
 
         while (true)
@@ -114,7 +115,12 @@ class Program
         {
             tasks = new Dictionary<int, Action>
             {
-                {1, Chapter5.Task1.Run},
+                {1, Chapter6.Task1.Run},
+                {2, Chapter6.Task2.Run},
+                {3, Chapter6.Task3.Run},
+                {4, Chapter6.Task4.Run},
+                {5, Chapter6.Task5.Run},
+                {6, Chapter6.Task6.Run},
 
             };
         }

@@ -2,23 +2,30 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using static System.Console;
-class turist{
+class turist_2
+{
     public string Name;
-    public string Age;
+    public int Age;
     public string Travel;
+    public string info()
+    {
+        return Name + " Отправляется в " + Travel;
+    }
+
 }
 namespace Chapter6
 {
-    public class Task1
+    public class Task4
     {
         public static void Run()
         {
             Clear();
-            var turist = new turist();
+            var turist = new turist_2();
             turist.Name = "Matvey";
-            turist.Age = "18";
+            turist.Age = 18;
             turist.Travel = "Moscow";
 
+            WriteLine(turist.info());
         }
 
 
